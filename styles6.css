@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: transparent;
+}
+.container{
+    position: relative;
+    max-width: 100%;
+    background: rgba(95, 95, 95, 0.589);
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgb(0, 0, 0, 0.1);
+}
+.container header{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.container .form{
+    margin-top: 30px;
+}
+.form .input-box{
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+.input-box label{
+    color: white;
+}
+.input-box ::placeholder{
+    color: white;
+}
+.form :where( .input-box input, .select-box){
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    color: white;
+    margin-top: 6px;
+    border: 1px solid rgba(95, 95, 95, 0.589);
+    border-radius: 6px;
+    padding: 0 15px;
+    background: transparent;
+}
+option{
+    color: rgb(95, 95, 95);
+ }
+.select-box{
+    margin-top: 6px; 
+}
+.select-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color:  white;
+    font-size: 1rem;
+    background: transparent;
+}
+.btn {
+    width: 100%;
+    height:45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.btn {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    transition: transform .2s;
+    width: 100%;
+    height: 45px;;
+    margin: 0 5;
+  }
+  
+  .btn:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }  
+  .background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.background-clip{
+        width: auto;
+        height: 100%;
+    }
+.background-clip{
+        width: 100%;
+        height: auto;
+    } 
+    <!--size and format again -->

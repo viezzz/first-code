@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title> genshin</title>
+<link rel="stylesheet" href="styles.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<!--para maging tama yung size and format ng log in page namin-->
+<!--for the meta para ito sa text upang ma tranfer sa mismong site saka ma stored na rin ito yung nag papakita ng info-->
+<body>
+    <div class="wrapper">
+        <video autoplay muted loop play-inline class="background-clip">
+            <source src="video/login screen.mp4"
+            type="video/mp4">
+        </video>
+        <!--ito yung background video na makikita sa login page-->
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" placeholder="username/gmail.com" required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="password" required>
+                <i class='bx bxs-lock-alt' ></i>
+            </div>
+            
+            <div class="remember-forgot">
+                <label><input type="checkbox"> remember me</label>
+                <a href="#">forgot password?</a>
+            </div>
+
+            <button type="button" onclick="myFunction()" class="btn">Login</button>
+
+            <div class="register-link">
+                <p>Don't have an account? <a href="Register_(St.bartholomew)_(Group_7).html"> Register</a></p>
+            </div>   
+
+    </div>   
+    <!--ito yung mga form sa log in page namin required din ito-->
+    <script>
+        function myFunction(){
+            window.location.assign("test.html")
+        }
+    </script>
+    <!--another void para pag naka login na lalabas nalang yung loading-->
+</body>
+</html>

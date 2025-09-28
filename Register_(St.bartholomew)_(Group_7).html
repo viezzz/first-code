@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Register</title>
+        <link rel="stylesheet" href="styles6.css">
+        <meta charset="UTF-8">
+
+
+    </head>
+    <!--register format para sa log in page ng amin website-->
+    <!--for the meta para ito sa text upang ma tranfer sa mismong site saka ma stored na rin ito yung nag papakita ng info-->
+<body>
+    <section class="container">
+        <header>Registration</header>
+        <form action="#" class="form">
+            <div class="input-box">
+                <label>First Name</label>
+                <input type="text" placeholder="Enter first name" required/>
+            </div>
+
+            <div class="input-box">
+                <label>Last Name</label>
+                <input type="text" placeholder="Enter Last name" required/>
+            </div>
+
+            <div class="input-box">
+                <label>Input your age</label>
+                <input type="number" placeholder="Enter your age" required/>
+            </div>
+
+            <div class="input-box">
+                <label>Sections</label>
+            </div>
+
+            <div class="select-box">
+                <select>
+                    <option class="option2">St.Bartholomew</option>
+                    <option class="option2">St.Benedict</option>
+                    <option class="option2">St.James</option>
+                    <option class="option2">St.John</option>
+                    <option class="option2">St.Mark</option>
+                    <option class="option2">St.Matthew</option>
+                    <option class="option2">St.Peter</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <label>Email Address</label>
+                <input type="text" placeholder="Enter Email Address" required/>
+            </div>
+
+            <div class="input-box">
+                <label>username</label>
+                <input type="text" placeholder="Enter username" required/>
+            </div>
+
+            <div class="input-box">
+                <label>password</label>
+                <input type="password" placeholder="Enter password" required/>
+            </div>
+<!--ito yung register form required ito para maka log in-->
+            <button type="button" onclick="myFunction()" class="btn">Submit</button>
+
+        </form>
+    </section>
+    <script>
+        function myFunction(){
+            window.location.assign("login_(St.bartholomew)_(Group_7).html")
+        }
+    </script>
+<!--void ulit para pag na click na mag wwarp sa loading papunta sa home page-->
+    <video autoplay muted loop play-inline class="background-clip">
+         <source src="video/login screen.mp4"
+         type="video/mp4">
+</video>
+<!--background vid pag na click na yung login-->
+</body>
+</html>
